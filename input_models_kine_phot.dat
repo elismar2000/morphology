@@ -1,0 +1,179 @@
+##########
+NGC 2992
+##########
+
+Photometry
+==========
+
+zp =20.40519905 
+
+Chi^2_reduced:  0.21234179279638452
+
+Bulge
+======
+Ie0=10896.40
+Ie=44.40±6.55(641.38)
+Re=3.77±0.33(2.10)
+n=2.92±0.28(0.80)
+cx=99.50±0.02(99.50)
+cy=99.50±0.02(99.50)
+ellip=0.35±0.01(0.70)
+PA=135.75±1.47(160.00)
+
+
+Disc
+========
+
+Io=65.73±1.67(121.24)
+Rs=11.48±0.11(8.76)
+cx=99.50±0.03(99.50)
+cy=99.50±0.06(99.50)
+ellip=0.58±0.01(0.53)
+PA=109.25±0.24(110.71)
+
+RMS_model = 0.916 (sky_sigma=0.8130162954)
+
+Data unit at central pix of m2 image: 256.55
+Data unit at central pix of Bulge Model : 211.17
+Data unit at central pix of Disc Model : 52.37
+Data unit at central pix all components: 263.55
+
+
+Kinematics
+==========
+
+Bulge mass accumulative at 1 Reff (2.7 kpc): 0.006 x 10^10 Msun
+Disc mass accumulative at 1 Reff (2.7 kpc): 1.4 x 10^10 Msun
+Halo Mass accumulative at 1 Reff (2.7 kpc): 0.3 x 10^10 Msun
+Total dynamical mass at 1 Reff (2.7 kpc): 1.7 x 10^10 Msun
+Ratio Baryonic_Mass / Dark_matter at 1 Reff (2.7 kpc): 4.34
+
+Bulge mass accumulative at 2 Reff (5.3 kpc): 0.007 x 10^10 Msun
+Disc mass accumulative at 2 Reff (5.3 kpc): 2.9 x 10^10 Msun
+Halo Mass accumulative at 2 Reff (5.3 kpc): 1.2 x 10^10 Msun
+Total dynamical mass at 2 Reff (5.3 kpc): 4.1 x 10^10 Msun
+Ratio Baryonic_Mass / Dark_matter at 2 Reff (5.3 kpc): 2.40
+
+Total Disc Mass: 4.1 x 10^10 Msun
+M200: 1.4e+12
+fraction M_disc_2Reff/M200 = 0.020
+fraction M_T/M200 = 0.029
+
+M200: 1.4e+12
+fraction M_star/M200 = 0.020
+
+r_c = 34.23 kpc
+
+V200 = 162 km s^-1
+mean value of the observed RC  [2-2.4]Rs = 182 km s^-1
+
+Prediction Moster et al. 2013
+r_vir = 243  and r_200 = 231 kpc
+M_disc expected 4.25e+10 (10.63 log (M_sun))
+fraction expected = 0.029
+
+
+Prediction Behroozi et al. 2013
+
+M_disc expected 3.75e+10 (10.57 log (M_sun))
+fraction expected = 0.026
+
+C [-1sig, med, +1sig]   [ 6.0, 11.9, 23.8 ]
+C fitted = 6.7
+
+
+
+##########
+NGC 2993
+##########
+
+Photometry
+==========
+
+zp =20.40519905 
+
+Chi^2_reduced:  0.6165574607935818
+
+Bulge
+======
+Ie0=32.60
+Ie=16.30±33.48(16.30)
+Re=2.03±1.43(2.03)
+n=0.50±0.89(0.50)
+cx=59.50±0.25(59.50)
+cy=59.50±0.27(59.50)
+ellip=0.14±0.80(0.14)
+PA=−42.08±217.56(−42.08)
+
+
+Disc
+======
+Io=70.58±4.08(70.58)
+Rs=4.17±0.09(4.17)
+cx=59.50±0.07(59.50)
+cy=59.50±0.08(59.50)
+ellip=0.13±0.01(0.13)
+PA=109.80±3.11(109.80)
+
+
+Bar
+======
+Io=6.59±288.04(6.59)
+Rout=6.49±39.42(6.49)
+beta=1.07±158.97(1.07)
+alpha=0.50±29.87(0.50)
+cx=59.50±0.80(59.50)
+cy=59.50±1.31(59.50)
+ellip=0.62±1.20(0.62)
+PA=−61.54±23.40(−61.54)
+
+RMS_model = 0.878 (sky_sigma=0.8130162954)
+
+Data unit at central pix of m2 image: 68.26
+Data unit at central pix of Bulge Model : 20.97
+Data unit at central pix of Bar Model : 4.50
+Data unit at central pix of Disc Model : 48.93
+Data unit at central pix all components: 74.41
+
+
+Kinematics
+==========
+
+
+Bulge mass accumulative at 1 Reff (1.3 kpc): 0.1 x 10^10 Msun
+Disc mass accumulative at 1 Reff (1.3 kpc): 0.7 x 10^10 Msun
+Halo Mass accumulative at 1 Reff (1.3 kpc): 0.1 x 10^10 Msun
+Total dynamical mass at 1 Reff (1.3 kpc): 0.9 x 10^10 Msun
+Ratio Baryonic_Mass / Dark_matter at 1 Reff (1.3 kpc): 5.57
+
+Bulge mass accumulative at 2 Reff (2.6 kpc): 0.1 x 10^10 Msun
+Disc mass accumulative at 2 Reff (2.6 kpc): 1.2 x 10^10 Msun
+Halo Mass accumulative at 2 Reff (2.6 kpc): 0.5 x 10^10 Msun
+Total dynamical mass at 2 Reff (2.6 kpc): 1.8 x 10^10 Msun
+Ratio Baryonic_Mass / Dark_matter at 2 Reff (2.6 kpc): 2.64
+
+Total Disc Mass: 1.5 x 10^10 Msun
+M200: 4.7e+11
+fraction M_disc_2Reff/M200 = 0.026
+fraction M_T/M200 = 0.031
+
+M200: 4.7e+11
+fraction M_star/M200 = 0.028
+
+r_c = 11.66 kpc
+
+V200 = 113 km s^-1
+
+Prediction Moster et al. 2013
+r_vir = 169  and r_200 = 161 kpc
+M_disc expected 1.81e+10 (10.26 log (M_sun))
+fraction expected = 0.037
+
+
+Prediction Behroozi et al. 2013
+
+M_disc expected 1.36e+10 (10.13 log (M_sun))
+fraction expected = 0.028
+
+C [-1sig, med, +1sig]   [ 6.9, 13.8, 27.6 ]
+C fitted = 13.8
