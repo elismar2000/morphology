@@ -25,19 +25,21 @@ v_obs = v_obs[3:-3]
 def M_r_bulge(r, M_bulge, a):
     return M_bulge * r**2 / (r + a)**2
 
-def M_r_disk(r, M_disk, Rd):
-    return M_disk * ( (-r/Rd)*np.exp(-r/Rd) - np.exp(-r/Rd) + 1 )
+def M_r_disk(r, M_disk, Rd, z0):
+    return M_disk * ( (-r/Rd)*np.exp(-r/Rd) - np.exp(-r/Rd) + 1 ) * np.tanh(r/z0)
 
-M_bulge = 1.4e+10  #Msun
+M_bulge = 0.014e+10  #Msun
 a = 0.38  #kpc
-M_disk = 5.0e+10 #Msun
+
+M_disk = 0.173e+10 #Msun
 Rd = 2.1 #kpc
+z0 = 0.42 #Kpc
 
 distance = 39e+3 #Kpc
 
 radii = np.deg2rad(radii / 3600) * distance #Kpc
 
-mass_lum = np.array([M_r_bulge(r, M_bulge, a) + M_r_disk(r, M_disk, Rd) for r in radii])
+mass_lum = np.array([M_r_bulge(r, M_bulge, a) + M_r_disk(r, M_disk, Rd, z0) for r in radii])
 
 radii = radii * u.kpc
 G = cons.G * u.m**3 / (u.kg * u.s**2)
@@ -66,8 +68,8 @@ def Hernquist(r, M, a):
 
 model = Model(Hernquist)
 params = Parameters()
-params.add('M', value=1e+12, min=1e+9, max=1e+13)
-params.add('a', value=100, min=1, max=50)
+params.add('M', value=1e+11, min=1e+9, max=1e+15)
+params.add('a', value=100, min=1, max=200)
 result = model.fit(M_dark.value, params, r=radii.value)
 
 print(result.fit_report())
